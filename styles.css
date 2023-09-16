@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Estilos del menú */
+.menu {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    flex-shrink: 0;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del menú */
+}
+
+.menu h2 {
+    font-size: 24px;
+    margin: 0 0 10px; /* Espacio inferior para separar el título de la lista */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos del contenido */
+.contenido {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilos de la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos del botón Eliminar */
+.table button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.table button:hover {
+    background-color: #d32f2f;
+}
+
+
+/* Estilos para las columnas de tarjetas */
+.columna {
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.columna h2 {
+    margin-top: 0;
+}
+
+.nueva-tarea-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.nueva-tarea-btn:hover {
+    background-color: #0056b3;
+}
+
+.nueva-tarea-form {
+    display: none;
+    margin-top: 10px;
+}
+
+.tarea-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+
+.confirmar-tarea-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.confirmar-tarea-btn:hover {
+    background-color: #1e7e34;
+}
+
+.tarjeta {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
